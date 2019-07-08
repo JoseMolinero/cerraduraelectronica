@@ -1,0 +1,6 @@
+en el crontab -e tengo esta linea
+*/1 * * * * /home/pi/scripts_funcionales/script.py
+
+ el script de libres dice las puertas que estan libres 
+el script de limpiar borra los registros de la tabla 'nfc' y libera las puertas
+el script llamado script comprueba si la hora de guardado en la tabla nfc tiene mas de una hora de diferencia con la hora a la que se ejecute el script borra el registro del nfc y cambia el estado de la puerta a libre
